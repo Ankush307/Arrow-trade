@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        skyBlue: "#71CED0",
+        darkBlack: "#0F0D10",
+        lightBlack: "#232224",
+        gray: "#BCBBBC",
+        dark: "#434244",
+        blackLight: "#4C4C4C",
+        green: "#00C11F",
+        red: "#D01314",
+      },
+      backgroundImage: {
+        footer: "url('/assets/images/webp/footer-image.webp')",
       },
     },
   },
