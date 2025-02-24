@@ -14,10 +14,10 @@ const Navbar = () => {
     });
     return (
         <div className="flex justify-center items-center px-5">
-            <div className="container max-lg:px-5 box-border border border-dark border-solid mt-4 bg-white/10 flex justify-center items-center rounded-[60px] py-4 max-w-[1220px]">
+            <div className="container max-lg:px-5 box-border border border-dark border-solid mt-4 bg-white/10 flex justify-center items-center md:rounded-[60px] rounded-3xl py-4 max-w-[1220px]">
                 <div className="flex max-w-[1092px] justify-between items-center w-full">
                     <Link href={`/`}>
-                        <Image src="/assets/images/webp/page-logo.webp" width={150} height={44.06} alt="logo" />
+                        <Image className="lg:w-[150px] lg:h-[44.06px] md:w-[120px] w-[90px]" src="/assets/images/webp/page-logo.webp" width={150} height={44.06} alt="logo" />
                     </Link>
                     <div className={`w-3/4 transition-all duration-300 flex justify-between items-center max-lg:justify-center max-lg:!fixed max-lg:!top-0 max-lg:w-full max-lg:h-screen max-lg:bottom-0 max-lg:flex-col max-lg:gap-6 max-lg:bg-black max-lg:z-40 ${open ? "left-0" : "-left-[120%]"}`} >
                         <div className="flex justify-center max-lg:flex-col gap-6 items-center">

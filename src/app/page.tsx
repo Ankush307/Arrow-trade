@@ -1,5 +1,5 @@
-import BlogCards from "@/components/home/BlogCards";
-import Hero from "@/components/home/Hero";
+import BlogCards from "@/components/blog/BlogCards";
+import Hero from "@/components/blog/Hero";
 import Footer from "@/components/common/Footer";
 import TradeMarquee from "@/components/common/TradeMarquee";
 

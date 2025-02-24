@@ -12,7 +12,7 @@ const Footer = () => {
                 <Link href="/"><Image src="/assets/images/webp/page-logo.webp" width={152} height={44} alt="logo" /></Link>
                 <div className="flex sm:gap-6 items-center flex-wrap gap-y-2 sm:px-2.5 max-lg:py-8 max-sm:py-3 py-[40px]">
                     {FOOTER_LINKS_LIST.map((item, index) => (
-                        <Link key={index} className="leading-[150%] max-sm:w-1/3 whitespace-nowrap max-md:text-sm font-semibold text-white hover:text-cyan transition-all duration-300 hover:scale-105" href={item.link} >{item.title}</Link>
+                        <Link key={index} className="leading-[150%] max-sm:w-1/3 whitespace-nowrap max-md:text-sm font-semibold text-white hover:text-skyBlue transition-all duration-300 hover:scale-105" href={item.link} >{item.title}</Link>
                     ))}
                 </div>
                 <div className="flex justify-center gap-y-[30px] max-md:gap-y-4 max-sm:gap-y-3 flex-col">

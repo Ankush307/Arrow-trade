@@ -20,6 +20,7 @@ export default {
       },
       backgroundImage: {
         footer: "url('/assets/images/webp/footer-image.webp')",
+        driven: "url('/assets/images/webp/driven-bg.webp')",
       },
     },
   },

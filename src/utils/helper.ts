@@ -29,7 +29,7 @@ interface DisclaimersItem {
     description: string;
     descriptionTwo?: any;
 }
-interface Real_Time_Analytics {
+interface timeAnalytics {
     title: string;
     description: string;
     descriptionTwo?: any;
@@ -38,6 +38,16 @@ interface FooterIconsList {
     icons: string
     link: string
 }
+interface MarketInsights {
+    title: string;
+    description: string;
+}
+
+interface ChangingGame {
+    title: string;
+    description: string;
+}
+
 
 export const HEADER_LIST: HeaderItem[] = [
     {
@@ -247,22 +257,49 @@ export const FOOTER_ICONS_LIST: FooterIconsList[] = [
         link: "https://www.linkedin.com/"
     },
 ];
-export const Real_Time_Analytics: Real_Time_Analytics[] = [
+export const MARKET_INSIGHTS_LIST: MarketInsights[] = [
     {
-        title: "Trade Responsibility Disclaimer",
-        description: "Trading Forex and CFDs involves a high level of risk and may not be suitable for all investors. Leverage can work both for and against you, and it’s possible to lose more than your initial investment. Please ensure that you fully understand the risks involved, taking into account your financial objectives and risk appetite. Seek independent financial advice if necessary before starting trading. ArrowTrade does not offer financial advice.",
+        title: "Real-Time Analytics",
+        description:
+            "AI can process and analyze data from various sources, such as financial statements, price movements, market sentiment, and even social media trends, providing instant feedback and analysis.",
     },
     {
-        title: "Disclaimer",
-        description: "Information on this site is not directed at residents of any country or jurisdiction where distribution or use would be contrary to local law or regulation. Please check with your local regulations before proceeding.",
+        title: "News Updates",
+        description:
+            "AI tools can sift through the noise of constant news flows and pinpoint stories that are most relevant to your investments. Whether it’s economic reports, geopolitical events, or corporate announcements, AI can identify which developments are likely to move markets.",
     },
     {
-        title: "Regulatory Information",
-        description: "Arrowtradefx.com is a website operated by Arrow Trade S.A.R.L, which is registered in: – Lebanon, Beirut, Barbour, Zrek Street, Najmat almazraa building, Eighth floor- company number 1028098. (Arrow trade offices: 2nd floor Hazmieh, Baabda Real Estate, Property 4370 sections 20/021, Beirut, Lebanon).",
+        title: "Expert Market Research",
+        description:
+            "Advanced algorithms can synthesize historical data with current market trends to forecast potential outcomes, offering the insights of seasoned market experts at your fingertips.",
+    },
+];
+export const CHANGING_GAME_LIST: ChangingGame[] = [
+    {
+        title: "1. Faster Decision-Making",
+        description:
+            "In the world of trading and investing, speed is critical. AI systems can analyze millions of data points in seconds, giving you an edge in making quick decisions. For example, when news breaks about a company’s earnings report, AI systems can immediately assess the market’s reaction and provide insights on whether it's a buying or selling opportunity.",
     },
     {
-        title: "Regulatory Information",
-        description: "Arrowtradefx.com is a website operated by Arrow Trade S.A.R.L, which is registered in: – Lebanon, Beirut, Barbour, Zrek Street, Najmat almazraa building, Eighth floor- company number 1028098. (Arrow trade offices: 2nd floor Hazmieh, Baabda Real Estate, Property 4370 sections 20/021, Beirut, Lebanon).",
-        descriptionTwo: "Arrow Trade S.A.R.L (Lebanon) is the sole entity authorized to operate the MetaTrader platform under our license. No other companies are involved in the operation or management of our MetaTrader license.",
+        title: "2. Enhanced Accuracy and Predictive Power",
+        description:
+            "Human traders and investors are often prone to cognitive biases, such as overconfidence or emotional decision-making. AI removes these limitations by relying solely on data and algorithms. With machine learning, AI can improve over time, identifying patterns and trends that humans may overlook. This leads to more accurate predictions about market movements, asset prices, and investment risks.",
     },
+    {
+        title: "3. Customized Insights for Individual Strategies",
+        description:
+            "AI-driven analytics can tailor insights to your specific trading or investment strategy. Whether you’re a day trader looking for short-term opportunities or a long-term investor analyzing market fundamentals, AI can filter out irrelevant information and deliver insights that align with your goals. This level of personalization was previously unavailable in traditional market research.",
+    },
+];
+
+export const MARKET_HEADING_LIST: string[] = [
+    "Real-Time Analytics",
+    "News Updates",
+    "Expert Market Research",
+];
+
+export const CHANGING_GAME_HEADING_LIST: string[] = [
+    "Faster Decision-Making",
+    "Enhanced Accuracy and Predictive Power",
+    "Customized Insights for Individual Strategies",
 ];
