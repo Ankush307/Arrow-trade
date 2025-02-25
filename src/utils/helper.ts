@@ -12,7 +12,6 @@ interface MarketCard {
     description: string;
     author: string;
     image: string;
-    icon: string
 }
 
 interface MarqueeItem {
@@ -72,7 +71,7 @@ export const HEADER_LIST: HeaderItem[] = [
     },
     {
         title: "Blog",
-        link: "#blog",
+        link: "/",
     },
 ]
 
@@ -125,7 +124,6 @@ export const BLOGS_CARDS: MarketCard[] = [
         description: "Stay ahead with AI-driven analytics, real-time news updates, and expert market research to make informed decisions.",
         image: "/assets/images/webp/features-card-dp-one.webp",
         author: "Darrell Steward",
-        icon: ""
     },
     {
         cardImg: "/assets/images/webp/features-card-two.webp",
@@ -136,7 +134,6 @@ export const BLOGS_CARDS: MarketCard[] = [
         description: "Experience lightning-fast execution, customizable charts, and an intuitive interface designed for traders of all levels.",
         image: "/assets/images/webp/features-card-dp-two.webp",
         author: "Jerome Bell",
-        icon: ""
     },
     {
         cardImg: "/assets/images/webp/features-card-three.webp",
@@ -147,7 +144,6 @@ export const BLOGS_CARDS: MarketCard[] = [
         description: "Mastering the markets involves developing a comprehensive understanding of how financial markets work, creating.",
         image: "/assets/images/webp/features-card-dp-three.webp",
         author: "Eleanor Pena",
-        icon: ""
     },
     {
         cardImg: "/assets/images/webp/features-card-four.webp",
@@ -158,7 +154,6 @@ export const BLOGS_CARDS: MarketCard[] = [
         description: "Risk management is a critical component of successful trading. without effective risk management strategies, traders.",
         image: "/assets/images/webp/features-card-dp-four.webp",
         author: "Leslie Alexander",
-        icon: ""
     },
     {
         cardImg: "/assets/images/webp/features-card-five.webp",
@@ -169,7 +164,6 @@ export const BLOGS_CARDS: MarketCard[] = [
         description: "Building a diversified portfolio is an essential strategy for managing risk while aiming for steady returns over time.",
         image: "/assets/images/webp/features-card-dp-five.webp",
         author: "Wade Warren",
-        icon: ""
     },
     {
         cardImg: "/assets/images/webp/features-card-six.webp",
@@ -180,7 +174,36 @@ export const BLOGS_CARDS: MarketCard[] = [
         description: "Trading isn’t just about numbers, charts, and market analysis—it’s also a game of emotions and psychology.",
         image: "/assets/images/webp/features-card-dp-six.webp",
         author: "Kristin Watson",
-        icon: ""
+    },
+    {
+        cardImg: "/assets/images/webp/features-card-one.webp",
+        date: "31 Jan 2025",
+        category: "Productivity",
+        readTime: "3 min read",
+        title: "Real-Time Market Insights",
+        description: "Stay ahead with AI-driven analytics, real-time news updates, and expert market research to make informed decisions.",
+        image: "/assets/images/webp/features-card-dp-one.webp",
+        author: "Darrell Steward",
+    },
+    {
+        cardImg: "/assets/images/webp/features-card-two.webp",
+        date: "29 Jan 2025",
+        category: "Productivity",
+        readTime: "7 min read",
+        title: "Advanced Trading Platform",
+        description: "Experience lightning-fast execution, customizable charts, and an intuitive interface designed for traders of all levels.",
+        image: "/assets/images/webp/features-card-dp-two.webp",
+        author: "Jerome Bell",
+    },
+    {
+        cardImg: "/assets/images/webp/features-card-three.webp",
+        date: "20 Dec 2024",
+        category: "Productivity",
+        readTime: "4 min read",
+        title: "Mastering the Markets",
+        description: "Mastering the markets involves developing a comprehensive understanding of how financial markets work, creating.",
+        image: "/assets/images/webp/features-card-dp-three.webp",
+        author: "Eleanor Pena",
     },
 ]
 

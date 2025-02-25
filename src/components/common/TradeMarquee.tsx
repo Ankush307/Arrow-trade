@@ -6,8 +6,8 @@ const TradeMarquee = () => {
     return (
         <div className="text-black gap-[60px] bg-skyBlue py-[18px]">
             <Marquee>
-                {MARQUEE_LIST.map((item) => (
-                    <div className="ml-[60px] flex cursor-pointer gap-1.5 items-center justify-center">
+                {MARQUEE_LIST.map((item,i) => (
+                    <div key={i} className="ml-[60px] flex cursor-pointer gap-1.5 items-center justify-center">
                         <p>{item.title}</p>
                         <div className="bg-blackLight rounded-[73px] py-1 pl-[11px] pr-[7px] flex gap-1.5 items-center">
                             <p className="text-white">{item.price}</p>
