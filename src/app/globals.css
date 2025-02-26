@@ -17,3 +17,6 @@ body {
 .bg-border {
   background: linear-gradient(180deg, #71ced000 0%, #71CED0 100%);
 }
+.swiper-arrow:hover svg path {
+  stroke: #71CED0;
+}

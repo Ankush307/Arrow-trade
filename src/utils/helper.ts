@@ -47,7 +47,6 @@ interface ChangingGame {
     description: string;
 }
 
-
 export const HEADER_LIST: HeaderItem[] = [
     {
         title: "Home",
@@ -71,7 +70,7 @@ export const HEADER_LIST: HeaderItem[] = [
     },
     {
         title: "Blog",
-        link: "/",
+        link: "/blogs",
     },
 ]
 
